@@ -1,3 +1,4 @@
+#finds correlation between 2 attributes
 directory <- 'C:/Users/gokul/Downloads/specdata'
 corr <- function(directory, threshold = 100){
   filefull <- list.files(directory,full.names=TRUE)
