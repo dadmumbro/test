@@ -10,5 +10,4 @@ complete <- function(directory, id = 1:4){
     dat2 <- rbind(dat2,c(i,sumvalue1))
   }
   return(dat2)
-  #returns value
 }
